@@ -6,3 +6,8 @@ zhushan:
   test:
     refresh:
       token: '{cipher}AQAKHDsQNEM4d4N3Px/mvCQq9Dd22xPkw5FCb/qqvLBbQUb8MUt+Bg5qhFq05e7IfyNO1mZ4aXmpIZIfmVz9OJkXfAMKOe05hfQN5qB6UBqcYygLSg6tNTRoXj8KznIqKAzZAvMSREdb4j1HAIp51nV3AvGubnm4AZues1uAhpSjE9TggCeG+Vasenm1fT0v0Ugfec60I2XZqsSR2hUeopdR6FQhTpC+Gu6b9/H2nFf0GdaOPX1D8WEOyu8yMSXgckNLtgWWX//xcSWRY4pByyFv+rKyN2fdiNQgA92JFeg36J29hlpOb2VhFjpv4frkYwhTlJlbj9HWu3b4oDxXv6ldenS0vKb6VWxrSO+MDdD9DKDFuOxmblIU6psZuz0Vk18='
+mysql:
+  name:63a9f0ea7bb98050796b649e85481845
+  pass:e10adc3949ba59abbe56e057f20f883e
+  url:0436e7244cfc163ceb9533e294d16a47
+  Driver:com.mysql.jdbc.Driver
