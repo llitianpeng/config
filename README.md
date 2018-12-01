@@ -28,11 +28,11 @@
   
 ### 默认选项
 
-  name : application
+  application : application  即spring.application.name的属性值 也可以理解为文件名称
   
-  profile: default
+  profile: default 可以理解为文件后缀
   
-  label: master
+  label: master 可以理解为当前配置文件的所在目录或者所在分支
   
   默认选型为在master分支下寻找application-default格式的配置文件
   
