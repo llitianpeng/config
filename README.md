@@ -46,10 +46,6 @@
   
   spring.cloud.config.failFast = true 来开启快速异常
   
-### 详细的配置刚要地址
-
-  https://springcloud.cc/spring-cloud-dalston.html#_spring_cloud_config
-  
 ### 安全认证
 
   通过在config server 配置 security.user.name 和 security.user.password 的方式并注入spring-boot-starter-security的安全组件
@@ -57,6 +53,16 @@
   在config client中 设置 spring.cloud.config.username 和 spring.cloud.config.password属性对访问config server的客户端进行安全认证
   
   
+### keyStore
+
+   使用encrypt.keyStore配置alias password secret location(keyStore文件位置,默认资源路径下就可以)
+   
+   可以对加密后的配置进行解密,配置文件可以以非明文的方式去配置
+
+   
   
+### 详细的配置刚要地址
+
+  https://springcloud.cc/spring-cloud-dalston.html#_spring_cloud_config  
   
   
