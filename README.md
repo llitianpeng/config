@@ -70,7 +70,6 @@
   在微服务环境下，使用config server 以通配符的方式读取多份配置文件，然后在每一个微服务下通过name-profile 来选择读取哪个配置
   
 ### 模式匹配
-  
   spring:
   cloud:
     config:
