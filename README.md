@@ -59,10 +59,29 @@
    
    可以对加密后的配置进行解密,配置文件可以以非明文的方式去配置
 
-   
-  
 ### 详细的配置刚要地址
 
   https://springcloud.cc/spring-cloud-dalston.html#_spring_cloud_config  
   
+### 通配符
+
+  uri: https://github.com/llitianpeng/{application}
+
+  在微服务环境下，使用config server 以通配符的方式读取多份配置文件，然后在每一个微服务下通过name-profile 来选择读取哪个配置
   
+### 模式匹配
+  
+  spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/llitianpeng/config.git
+          repos:
+            simple: https://github.com/llitianpeng/simple.git
+            special:
+              pattern: special*/dev*,*special*/test*
+              uri: https://github.com/llitianpeng/special.git
+            local:
+              pattern: local*
+              uri: C:\Users\Administrator\Desktop\config\git
