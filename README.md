@@ -10,9 +10,15 @@
   
   /{label}/{application}-{profile}.properties
   
+### application
+
   application即spring.application.name的属性值
   
+### label
+  
   label为分支名称或者当前配置文件所在目录,默认为master
+
+### profile
   
   profile为文件的后缀
   
