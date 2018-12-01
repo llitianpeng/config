@@ -22,3 +22,23 @@
   
   profile为文件的后缀
   
+### 详细的配置刚要地址
+
+  https://springcloud.cc/spring-cloud-dalston.html#_spring_cloud_config
+  
+### 默认选项
+
+  name : application
+  
+  profile: default
+  
+  label: master
+  
+  默认选型为在master分支下寻找application-default格式的配置文件
+  
+  可以通过修改master分支名称 修改name profile 作为读取配置文件的名称和后缀来选择读取哪个配置文件
+  
+  
+  
+  
+  
